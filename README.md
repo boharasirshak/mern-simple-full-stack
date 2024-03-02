@@ -1,6 +1,6 @@
-# JWT Authentication System with Session Management - MERN Stack
+# MERN App
 
-This repository contains a JWT (JSON Web Token) Authentication System developed using the MERN Stack (MongoDB, Express, React, Node.js). The system focuses on session management, access token, and refresh token mechanisms with an expiration time of 30 seconds and 2 minutes, respectively. Additionally, it provides features like password reset, email verification, and silent authentication with access token renewal. The primary aim of this project is to delve into the details of JWT and authentication, emphasizing session management.
+A simple MERN app with JWT authentication.
 
 ## Table of Content
 
@@ -33,7 +33,6 @@ You can change these according to your needs
 
 1. User registration with Email verification
 2. User login with email and password
-3. Password reset functionality with email confirmation.
 4. Access token renewal (Silent Authentication)
 5. Secure Session Management with Token Expiration
 6. Protected Account route with Token authentication
@@ -69,11 +68,6 @@ DATABASE="Your mongodb connection URL "
 ACCESS_TOKEN_SECRET_KEY=' secret key'
 REFRESH_TOKEN_SECRET_KEY='secret key'
 RESET_PASSWORD_SECRET_KEY='secret key'
-ACTIVATION_SECRET_KEY='secret key'
-SEND_IN_BLUE_EMAIL_SERVICE_API_KEY="send in blue API key"
-SEND_IN_BLUE_USERNAME="sendinblue username"
-SEND_IN_BLUE_PASSWORD="send in blue password"
-NODEMAIL_EMAIL_FROM="email for sending mails to user"
 CLIENT_BASE_URL="http://localhost:5173"
 ```
 
@@ -122,18 +116,6 @@ The API provides the following endpoints:
 
 - `POST api/auth/signin`: Singin and get access token and refresh token
 - `POST api/auth/signup`: Register new User with email verification
-- `POST api/auth/forgotpassword`: Send mail for password reset link
-- `POST api/auth/resetpassword`: reset password
-- `POST api/auth/send-verification-mail`: send account verification mail
-- `GET api/auth/verifyemail`: verify the user mail with token
 - `GET api/auth/refresh`: refresh(renew) the access token
 - `GET api/auth/signout`: signout the User
 - `GET api/user`: get the user details
-
-## Contributing
-
-Contributions to this project are welcome. Please fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
-
-## License
-
-This project is licensed under the MIT License.
