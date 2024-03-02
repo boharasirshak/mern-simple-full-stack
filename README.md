@@ -16,16 +16,14 @@ A simple MERN app with JWT authentication.
 
 ## Introduction
 
-This JWT Authentication System serves as a backend-focused project to demonstrate the workings of JWT and session management in a MERN application. JSON Web Tokens are used to authenticate users and maintain their sessions securely. The system implements access and refresh tokens, each with different expiration times, to achieve improved security and usability.
+A simple app app with fronend in React and backend in Nodejs with Express. The app uses JWT for authentication and mongodb for database. _It's a MERN stack app with JWT authentication_.
 
 > ### Note
 
-> For development and project showcase, the expiration time of tokens is kept short
+> The expiration time of tokens is kept very short
 >
 > - Access token: 30 seconds
 > - Refresh token: 2 minutes
-
-You can change these according to your needs
 
 ## Features
 
