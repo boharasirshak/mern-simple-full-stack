@@ -24,8 +24,6 @@ This JWT Authentication System serves as a backend-focused project to demonstrat
 >
 > - Access token: 30 seconds
 > - Refresh token: 2 minutes
-> - reset password token: 3 minutes
-> - account Activation token: 30 minutes
 
 You can change these according to your needs
 
@@ -48,7 +46,7 @@ You can change these according to your needs
 1. Clone this repository on your local machine
 
 ```bash
-git clone https://github.com/anuragchauhan766/jwt-auth.git
+git clone https://github.com/boharasirshak/mern-simple-full-stack.git
 ```
 
 1. Install dependencies by running
@@ -81,7 +79,7 @@ node
 
 1. Now generate a random string with given command
 
-```bash
+```js
 require("crypto").randomBytes(64).toString("hex")
 ```
 
