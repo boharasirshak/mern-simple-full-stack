@@ -11,8 +11,6 @@ A simple MERN app with JWT authentication.
 5. [Configuration](#configuration)
 6. [Usage](#usage)
 7. [API Endpoints](#api-endpoints)
-8. [Contributing](#contributing)
-9. [License](#license)
 
 ## Introduction
 
